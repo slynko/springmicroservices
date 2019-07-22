@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///Users/oslynko/IdeaProjects/springmicroservices/config-repo/
+  application:
+    name: config-server
