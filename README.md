@@ -10,5 +10,9 @@ Startup guide :
     Then execute 'cd configserver && mvn spring-boot:run'
 3) Open new terminal window and make sure that you are in springmicroservices folder. 
     Then execute 'cd service && mvn spring-boot:run'
-
+4) Open new terminal window and make sure that you are in springmicroservices folder. 
+    Then execute 'cd zuul && mvn spring-boot:run'
+    
 Now you can open your browser and navigate to http://localhost:8080/message. You will see the message 'Hello from dev properties'.
+Also you can open your browser and navigate to http://localhost:5555/message-service/message. You will see the same message 'Hello from dev properties'.
+
